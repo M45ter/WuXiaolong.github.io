@@ -1,0 +1,820 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta name="baidu-site-verification" content="I0euCfIurk">
+  <meta name="google-site-verification" content="m0p-a0okAt1MwO56eE6sbGs65BHNMtkvLh_4dIgyIC4">
+  <meta name="360-site-verification" content="d55d6c2714ed28ec6778769094ccd0d4">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Android,Theme,WeiYan,">
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1">
+
+
+
+
+
+
+<meta name="description" content="来自开源项目：https://github.com/lguipeng/Notes，其中有改变主题的功能，我做了部分修改，并应用到我的APP中。感谢lguipeng的开源。
+
+效果预览">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android更换主题">
+<meta property="og:url" content="http://wuxiaolong.me/2015/08/19/ChangeTheme/index.html">
+<meta property="og:site_name" content="吴小龙同學">
+<meta property="og:description" content="来自开源项目：https://github.com/lguipeng/Notes，其中有改变主题的功能，我做了部分修改，并应用到我的APP中。感谢lguipeng的开源。
+
+效果预览">
+<meta property="og:image" content="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanScreenshots.gif">
+<meta property="og:image" content="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanAppDownload.png">
+<meta property="og:updated_time" content="2016-08-25T11:38:52.900Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Android更换主题">
+<meta name="twitter:description" content="来自开源项目：https://github.com/lguipeng/Notes，其中有改变主题的功能，我做了部分修改，并应用到我的APP中。感谢lguipeng的开源。
+
+效果预览">
+<meta name="twitter:image" content="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanScreenshots.gif">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"hide"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Android更换主题 | 吴小龙同學 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?0e1dc2030f397dfa0d60ad22b374430d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">吴小龙同學</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">党要我帅，我不得不帅！</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-friendslinks">
+          <a href="/friendslinks" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-link"></i> <br>
+            
+            小伙伴
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="st-search-show-outputs">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input">
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'ywBn2eRCzfb494KCWJw3','2.0.0');
+</script>
+
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Android更换主题
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-08-19T11:05:53+08:00" content="2015-08-19">
+              2015-08-19
+            </time>
+          </span>
+
+          
+            <span class="post-category">
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2015/08/19/ChangeTheme/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/08/19/ChangeTheme/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+              &nbsp; | &nbsp;
+              <span class="page-pv"><i class="fa fa-eye"></i>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+              </span>
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>来自开源项目：<a href="https://github.com/lguipeng/Notes" target="_blank" rel="external">https://github.com/lguipeng/Notes</a>，其中有改变主题的功能，我做了部分修改，并应用到我的APP中。感谢lguipeng的开源。</p>
+</blockquote>
+<h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanScreenshots.gif" alt=""><br><a id="more"></a></p>
+<h2 id="实例APK"><a href="#实例APK" class="headerlink" title="实例APK"></a>实例APK</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanAppDownload.png" alt=""></p>
+<h2 id="颜色定义"><a href="#颜色定义" class="headerlink" title="颜色定义"></a>颜色定义</h2><p>color.xml<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div></pre></td><td class="code"><pre><div class="line">&lt;color name="red_primary"&gt;#F44336&lt;/color&gt;</div><div class="line">   &lt;color name="red_primary_dark"&gt;#D32F2F&lt;/color&gt;</div><div class="line">   &lt;color name="red_accent"&gt;#F44336&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="pink_primary"&gt;#E91E63&lt;/color&gt;</div><div class="line">   &lt;color name="pink_primary_dark"&gt;#C2185B&lt;/color&gt;</div><div class="line">   &lt;color name="pink_accent"&gt;#E91E63&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="brown_primary"&gt;#795548&lt;/color&gt;</div><div class="line">   &lt;color name="brown_primary_dark"&gt;#5D4037&lt;/color&gt;</div><div class="line">   &lt;color name="brown_accent"&gt;#795548&lt;/color&gt;</div><div class="line"></div><div class="line"></div><div class="line">   &lt;color name="blue_primary"&gt;#2196F3&lt;/color&gt;</div><div class="line">   &lt;color name="blue_primary_dark"&gt;#1976D2&lt;/color&gt;</div><div class="line">   &lt;color name="blue_accent"&gt;#2196F3&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="blue_grey_primary"&gt;#607D8B&lt;/color&gt;</div><div class="line">   &lt;color name="blue_grey_primary_dark"&gt;#455A64&lt;/color&gt;</div><div class="line">   &lt;color name="blue_grey_accent"&gt;#607D8B&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="yellow_primary"&gt;#FFEB3B&lt;/color&gt;</div><div class="line">   &lt;color name="yellow_primary_dark"&gt;#FBC02D&lt;/color&gt;</div><div class="line">   &lt;color name="yellow_accent"&gt;#FFEB3B&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="deep_purple_primary"&gt;#673AB7&lt;/color&gt;</div><div class="line">   &lt;color name="deep_purple_primary_dark"&gt;#512DA8&lt;/color&gt;</div><div class="line">   &lt;color name="deep_purple_accent"&gt;#673AB7&lt;/color&gt;</div><div class="line"></div><div class="line"></div><div class="line">   &lt;color name="green_primary"&gt;#4CAF50&lt;/color&gt;</div><div class="line">   &lt;color name="green_primary_dark"&gt;#388E3C&lt;/color&gt;</div><div class="line">   &lt;color name="green_accent"&gt;#4CAF50&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="deep_orange_primary"&gt;#FF5722&lt;/color&gt;</div><div class="line">   &lt;color name="deep_orange_primary_dark"&gt;#E64A19&lt;/color&gt;</div><div class="line">   &lt;color name="deep_orange_accent"&gt;#FF5722&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="grey_primary"&gt;#9E9E9E&lt;/color&gt;</div><div class="line">   &lt;color name="grey_primary_dark"&gt;#616161&lt;/color&gt;</div><div class="line">   &lt;color name="grey_accent"&gt;#9E9E9E&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="cyan_primary"&gt;#00BCD4&lt;/color&gt;</div><div class="line">   &lt;color name="cyan_primary_dark"&gt;#0097A7&lt;/color&gt;</div><div class="line">   &lt;color name="cyan_accent"&gt;#00BCD4&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="amber_primary"&gt;#FFC107&lt;/color&gt;</div><div class="line">   &lt;color name="amber_primary_dark"&gt;#FFA000&lt;/color&gt;</div><div class="line">   &lt;color name="amber_accent"&gt;#FFC107&lt;/color&gt;</div><div class="line"></div><div class="line">   &lt;color name="primary"&gt;#2196F3&lt;/color&gt;</div><div class="line">   &lt;color name="primary_dark"&gt;#1E88E5&lt;/color&gt;</div><div class="line">   &lt;color name="accent"&gt;@color/primary&lt;/color&gt;</div></pre></td></tr></table></figure></p>
+<h2 id="样式定义"><a href="#样式定义" class="headerlink" title="样式定义"></a>样式定义</h2><p>style.xml<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div></pre></td><td class="code"><pre><div class="line">&lt;style name="RedTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/red_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/red_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/red_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line">   &lt;style name="PinkTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/pink_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/pink_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/pink_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line">   &lt;style name="BrownTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/brown_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/brown_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/brown_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line"></div><div class="line">   &lt;style name="BlueTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/blue_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/blue_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/blue_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line"></div><div class="line">   &lt;style name="BlueGreyTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/blue_grey_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/blue_grey_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/blue_grey_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line"></div><div class="line">   &lt;style name="YellowTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/yellow_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/yellow_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/yellow_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line"></div><div class="line">   &lt;style name="DeepPurpleTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/deep_purple_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/deep_purple_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/deep_purple_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line"></div><div class="line">   &lt;style name="GreenTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/green_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/green_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/green_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line">   &lt;style name="DeepOrangeTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/deep_orange_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/deep_orange_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/deep_orange_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line">   &lt;style name="GreyTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/grey_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/grey_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/grey_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line">   &lt;style name="CyanTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/cyan_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/cyan_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/cyan_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div><div class="line"></div><div class="line">   &lt;style name="AmberTheme" parent="AppTheme"&gt;</div><div class="line">       &lt;item name="colorPrimary"&gt;@color/amber_primary&lt;/item&gt;</div><div class="line">       &lt;item name="colorPrimaryDark"&gt;@color/amber_primary_dark&lt;/item&gt;</div><div class="line">       &lt;item name="colorAccent"&gt;@color/amber_accent&lt;/item&gt;</div><div class="line">   &lt;/style&gt;</div></pre></td></tr></table></figure></p>
+<h2 id="主题选择对话框"><a href="#主题选择对话框" class="headerlink" title="主题选择对话框"></a>主题选择对话框</h2><h3 id="在对话框里加入了GridView"><a href="#在对话框里加入了GridView" class="headerlink" title="在对话框里加入了GridView"></a>在对话框里加入了GridView</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">showThemeChooseDialog</span><span class="params">()</span> </span>&#123;</div><div class="line">       AlertDialog.Builder builder = <span class="keyword">new</span> AlertDialog.Builder(getActivity(), R.style.ChangeThemeDialog);</div><div class="line">       builder.setTitle(<span class="string">"更换主题"</span>);</div><div class="line">       Integer[] res = <span class="keyword">new</span> Integer[]&#123;R.drawable.red_round, R.drawable.brown_round, R.drawable.blue_round,</div><div class="line">               R.drawable.blue_grey_round, R.drawable.yellow_round, R.drawable.deep_purple_round,</div><div class="line">               R.drawable.pink_round, R.drawable.green_round, R.drawable.deep_orange_round,</div><div class="line">               R.drawable.grey_round, R.drawable.cyan_round,R.drawable.amber_round&#125;;</div><div class="line">       List&lt;Integer&gt; list = Arrays.asList(res);</div><div class="line">       ColorsListAdapter adapter = <span class="keyword">new</span> ColorsListAdapter(getActivity(), list);</div><div class="line">       adapter.setCheckItem(ThemeUtils.getCurrentTheme(getActivity()).getIntValue());</div><div class="line">       GridView gridView = (GridView) LayoutInflater.from(getActivity()).inflate(R.layout.colors_panel_layout, <span class="keyword">null</span>);</div><div class="line">       gridView.setStretchMode(GridView.STRETCH_COLUMN_WIDTH);</div><div class="line">       gridView.setCacheColorHint(<span class="number">0</span>);</div><div class="line">       gridView.setAdapter(adapter);</div><div class="line">       builder.setView(gridView);</div><div class="line">       <span class="keyword">final</span> AlertDialog dialog = builder.show();</div><div class="line">       gridView.setOnItemClickListener(</div><div class="line">               <span class="keyword">new</span> AdapterView.OnItemClickListener() &#123;</div><div class="line">                   <span class="meta">@Override</span></div><div class="line">                   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onItemClick</span><span class="params">(AdapterView&lt;?&gt; parent, View view, <span class="keyword">int</span> position, <span class="keyword">long</span> id)</span> </span>&#123;</div><div class="line">                       dialog.dismiss();</div><div class="line">                       <span class="keyword">int</span> value = ThemeUtils.getCurrentTheme(getActivity()).getIntValue();</div><div class="line">                       Log.d(<span class="string">"wxl"</span>, <span class="string">"value=="</span> + value);</div><div class="line">                       <span class="keyword">if</span> (value != position) &#123;</div><div class="line">                           preferenceUtils.saveParam(getString(R.string.change_theme_key), position);</div><div class="line">                           changeTheme(ThemeUtils.Theme.mapValueToTheme(position));</div><div class="line">                       &#125;</div><div class="line">                   &#125;</div><div class="line">               &#125;</div><div class="line"></div><div class="line">       );</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<h3 id="对话框圆形颜色"><a href="#对话框圆形颜色" class="headerlink" title="对话框圆形颜色"></a>对话框圆形颜色</h3><p>drawable下建red_round.xml，代码如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=<span class="string">"1.0"</span> encoding=<span class="string">"utf-8"</span>?&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">shape</span> <span class="attr">xmlns:android</span>=<span class="string">"http://schemas.android.com/apk/res/android"</span> <span class="attr">android:shape</span>=<span class="string">"oval"</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">solid</span> <span class="attr">android:color</span>=<span class="string">"@color/red_primary"</span>/&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">shape</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<h3 id="ColorsListAdapter"><a href="#ColorsListAdapter" class="headerlink" title="ColorsListAdapter"></a>ColorsListAdapter</h3><p>GridView 的适配器和它的xml<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ColorsListAdapter</span> <span class="keyword">extends</span> <span class="title">BaseAdapter</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> <span class="keyword">int</span> checkItem;</div><div class="line">    Context context;</div><div class="line">    List&lt;Integer&gt; list;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ColorsListAdapter</span><span class="params">(Context context, List&lt;Integer&gt; list)</span> </span>&#123;</div><div class="line">        <span class="keyword">this</span>.context = context;</div><div class="line">        <span class="keyword">this</span>.list = list;</div><div class="line">    &#125;</div><div class="line"></div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> list.size();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">getItem</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> list.get(position);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">getItemId</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</div><div class="line">        <span class="keyword">return</span> position;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> View <span class="title">getView</span><span class="params">(<span class="keyword">int</span> position, View convertView, ViewGroup parent)</span> </span>&#123;</div><div class="line">        Holder holder;</div><div class="line">        <span class="keyword">if</span> (convertView == <span class="keyword">null</span>) &#123;</div><div class="line">            convertView = LayoutInflater.from(context).inflate(R.layout.colors_image_layout, <span class="keyword">null</span>);</div><div class="line">            holder = <span class="keyword">new</span> Holder();</div><div class="line">            holder.imageView1 = (ImageView) convertView.findViewById(R.id.img_1);</div><div class="line">            holder.imageView2 = (ImageView) convertView.findViewById(R.id.img_2);</div><div class="line">            convertView.setTag(holder);</div><div class="line">        &#125; <span class="keyword">else</span> &#123;</div><div class="line">            holder = (Holder) convertView.getTag();</div><div class="line">        &#125;</div><div class="line">        holder.imageView1.setImageResource(list.get(position));</div><div class="line">        <span class="keyword">if</span> (checkItem == position) &#123;</div><div class="line">            holder.imageView2.setImageResource(R.drawable.ic_done_white);</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">return</span> convertView;</div><div class="line">    &#125;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCheckItem</span><span class="params">(<span class="keyword">int</span> checkItem)</span> </span>&#123;</div><div class="line">        <span class="keyword">this</span>.checkItem = checkItem;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Holder</span> </span>&#123;</div><div class="line">        ImageView imageView1;</div><div class="line">        ImageView imageView2;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>colors_image_layout.xml<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version=<span class="string">"1.0"</span> encoding=<span class="string">"utf-8"</span>?&gt;</div><div class="line">&lt;FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"</div><div class="line">    android:background="@android:color/transparent"</div><div class="line">    android:orientation="vertical"</div><div class="line">    android:layout_width="wrap_content"</div><div class="line">    android:layout_height="wrap_content"&gt;</div><div class="line">    &lt;ImageView</div><div class="line">        android:id="@+id/img_1"</div><div class="line">        android:layout_gravity="center"</div><div class="line">        android:layout_width="@dimen/md_simplelist_icon"</div><div class="line">        android:layout_height="@dimen/md_simplelist_icon" /&gt;</div><div class="line">    &lt;ImageView</div><div class="line">        android:id="@+id/img_2"</div><div class="line">        android:layout_gravity="center"</div><div class="line">        android:layout_width="20dp"</div><div class="line">        android:layout_height="20dp" /&gt;</div><div class="line">&lt;/FrameLayout&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="changeTheme方法"><a href="#changeTheme方法" class="headerlink" title="changeTheme方法"></a>changeTheme方法</h3><p>这里用的EventBus发布事件<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">changeTheme</span><span class="params">(ThemeUtils.Theme theme)</span> </span>&#123;</div><div class="line">        <span class="keyword">if</span> (getActivity() == <span class="keyword">null</span>)</div><div class="line">            <span class="keyword">return</span>;              </div><div class="line">       finish();         EventBus.getDefault().post(Constants.MainEvent.CHANGE_THEME);</div><div class="line">       </div><div class="line">    &#125;</div></pre></td></tr></table></figure></p>
+<p>需要立即改变主题，调用如下代码：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onEventMainThread</span><span class="params">(Constants.MainEvent event)</span> </span>&#123;</div><div class="line">       <span class="keyword">switch</span> (event) &#123;</div><div class="line">            <span class="keyword">case</span> CHANGE_THEME:</div><div class="line">               <span class="keyword">this</span>.recreate();</div><div class="line">              <span class="keyword">break</span>;</div><div class="line">       &#125;</div><div class="line">   &#125;</div></pre></td></tr></table></figure></p>
+<h3 id="PreferenceUtils"><a href="#PreferenceUtils" class="headerlink" title="PreferenceUtils"></a>PreferenceUtils</h3><p>SharedPreferences 封装类<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">PreferenceUtils</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> SharedPreferences sharedPreferences;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> SharedPreferences.Editor shareEditor;</div><div class="line"></div><div class="line">    <span class="keyword">private</span> <span class="keyword">static</span> PreferenceUtils preferenceUtils = <span class="keyword">null</span>;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String NOTE_TYPE_KEY = <span class="string">"NOTE_TYPE_KEY"</span>;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String EVERNOTE_ACCOUNT_KEY = <span class="string">"EVERNOTE_ACCOUNT_KEY"</span>;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String EVERNOTE_NOTEBOOK_GUID_KEY = <span class="string">"EVERNOTE_NOTEBOOK_GUID_KEY"</span>;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">private</span> <span class="title">PreferenceUtils</span><span class="params">(Context context)</span></span>&#123;</div><div class="line">        sharedPreferences = context.getSharedPreferences(SetFragment.PREFERENCE_FILE_NAME, Context.MODE_PRIVATE);</div><div class="line">        shareEditor = sharedPreferences.edit();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> PreferenceUtils <span class="title">getInstance</span><span class="params">(Context context)</span></span>&#123;</div><div class="line">        <span class="keyword">if</span> (preferenceUtils == <span class="keyword">null</span>) &#123;</div><div class="line">            <span class="keyword">synchronized</span> (PreferenceUtils.class) &#123;</div><div class="line">                <span class="keyword">if</span> (preferenceUtils == <span class="keyword">null</span>) &#123;</div><div class="line">                    preferenceUtils = <span class="keyword">new</span> PreferenceUtils(context.getApplicationContext());</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">return</span> preferenceUtils;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getStringParam</span><span class="params">(String key)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> getStringParam(key, <span class="string">""</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getStringParam</span><span class="params">(String key, String defaultString)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> sharedPreferences.getString(key, defaultString);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">saveParam</span><span class="params">(String key, String value)</span></span></div><div class="line">    &#123;</div><div class="line">        shareEditor.putString(key,value).commit();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">getBooleanParam</span><span class="params">(String key)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> getBooleanParam(key, <span class="keyword">false</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">getBooleanParam</span><span class="params">(String key, <span class="keyword">boolean</span> defaultBool)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> sharedPreferences.getBoolean(key, defaultBool);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">saveParam</span><span class="params">(String key, <span class="keyword">boolean</span> value)</span></span>&#123;</div><div class="line">        shareEditor.putBoolean(key, value).commit();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getIntParam</span><span class="params">(String key)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> getIntParam(key, <span class="number">0</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getIntParam</span><span class="params">(String key, <span class="keyword">int</span> defaultInt)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> sharedPreferences.getInt(key, defaultInt);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">saveParam</span><span class="params">(String key, <span class="keyword">int</span> value)</span></span>&#123;</div><div class="line">        shareEditor.putInt(key, value).commit();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">getLongParam</span><span class="params">(String key)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> getLongParam(key, <span class="number">0</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">getLongParam</span><span class="params">(String key, <span class="keyword">long</span> defaultInt)</span></span>&#123;</div><div class="line">        <span class="keyword">return</span> sharedPreferences.getLong(key, defaultInt);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">saveParam</span><span class="params">(String key, <span class="keyword">long</span> value)</span></span>&#123;</div><div class="line">        shareEditor.putLong(key, value).commit();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">removeKey</span><span class="params">(String key)</span></span>&#123;</div><div class="line">        shareEditor.remove(key).commit();</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h3 id="ThemeUtils"><a href="#ThemeUtils" class="headerlink" title="ThemeUtils"></a>ThemeUtils</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ThemeUtils</span> </span>&#123;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">changTheme</span><span class="params">(Activity activity, Theme theme)</span> </span>&#123;</div><div class="line">        <span class="keyword">if</span> (activity == <span class="keyword">null</span>)</div><div class="line">            <span class="keyword">return</span>;</div><div class="line">        <span class="keyword">int</span> style = R.style.RedTheme;</div><div class="line">        <span class="keyword">switch</span> (theme) &#123;</div><div class="line">            <span class="keyword">case</span> BROWN:</div><div class="line">                style = R.style.BrownTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> BLUE:</div><div class="line">                style = R.style.BlueTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> BLUE_GREY:</div><div class="line">                style = R.style.BlueGreyTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> YELLOW:</div><div class="line">                style = R.style.YellowTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> DEEP_PURPLE:</div><div class="line">                style = R.style.DeepPurpleTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> PINK:</div><div class="line">                style = R.style.PinkTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> GREEN:</div><div class="line">                style = R.style.GreenTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> DEEP_ORANGE:</div><div class="line">                style = R.style.DeepOrangeTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> GREY:</div><div class="line">                style = R.style.GreyTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> CYAN:</div><div class="line">                style = R.style.CyanTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">case</span> AMBER:</div><div class="line">                style = R.style.AmberTheme;</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">            <span class="keyword">default</span>:</div><div class="line">                <span class="keyword">break</span>;</div><div class="line">        &#125;</div><div class="line">        activity.setTheme(style);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Theme <span class="title">getCurrentTheme</span><span class="params">(Context context)</span> </span>&#123;</div><div class="line">        <span class="keyword">int</span> value = PreferenceUtils.getInstance(context)</div><div class="line">                .getIntParam(context.getString(R.string.change_theme_key), <span class="number">0</span>);</div><div class="line">        <span class="keyword">return</span> ThemeUtils.Theme.mapValueToTheme(value);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">enum</span> Theme &#123;</div><div class="line">        RED(<span class="number">0</span>),</div><div class="line">        BROWN(<span class="number">1</span>),</div><div class="line">        BLUE(<span class="number">2</span>),</div><div class="line">        BLUE_GREY(<span class="number">3</span>),</div><div class="line">        YELLOW(<span class="number">4</span>),</div><div class="line">        DEEP_PURPLE(<span class="number">5</span>),</div><div class="line">        PINK(<span class="number">6</span>),</div><div class="line">        GREEN(<span class="number">7</span>),</div><div class="line">        DEEP_ORANGE(<span class="number">8</span>),</div><div class="line">        GREY(<span class="number">9</span>),</div><div class="line">        CYAN(<span class="number">10</span>),</div><div class="line">        AMBER(<span class="number">11</span>);</div><div class="line"></div><div class="line">        <span class="keyword">private</span> <span class="keyword">int</span> mValue;</div><div class="line"></div><div class="line">        Theme(<span class="keyword">int</span> value) &#123;</div><div class="line">            <span class="keyword">this</span>.mValue = value;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Theme <span class="title">mapValueToTheme</span><span class="params">(<span class="keyword">final</span> <span class="keyword">int</span> value)</span> </span>&#123;</div><div class="line">            <span class="keyword">for</span> (Theme theme : Theme.values()) &#123;</div><div class="line">                <span class="keyword">if</span> (value == theme.getIntValue()) &#123;</div><div class="line">                    <span class="keyword">return</span> theme;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            <span class="comment">// If run here, return default</span></div><div class="line">            <span class="keyword">return</span> RED;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">static</span> Theme <span class="title">getDefault</span><span class="params">()</span> </span>&#123;</div><div class="line">            <span class="keyword">return</span> RED;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getIntValue</span><span class="params">()</span> </span>&#123;</div><div class="line">            <span class="keyword">return</span> mValue;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="基类BaseActivity"><a href="#基类BaseActivity" class="headerlink" title="基类BaseActivity"></a>基类BaseActivity</h2><p>初始化主题<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">BaseActivity</span> <span class="keyword">extends</span> <span class="title">AppCompatActivity</span> </span>&#123;</div><div class="line">    <span class="keyword">protected</span> PreferenceUtils preferenceUtils;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</div><div class="line">        preferenceUtils = PreferenceUtils.getInstance(<span class="keyword">this</span>);</div><div class="line">        initTheme();</div><div class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</div><div class="line">        setContentView(R.layout.activity_base);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">initTheme</span><span class="params">()</span> </span>&#123;</div><div class="line">        ThemeUtils.Theme theme = ThemeUtils.getCurrentTheme(<span class="keyword">this</span>);</div><div class="line">        ThemeUtils.changTheme(<span class="keyword">this</span>, theme);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">   &#125;</div></pre></td></tr></table></figure></p>
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+	    ﻿<div style="padding: 10px 0; margin: 20px auto; width: 99%; text-align: center"> 
+<b>我的公众号：吴小龙同学</b>
+<img src="http://7q5c2h.com1.z0.glb.clouddn.com/qrcode_wuxiaolong.jpg"> 
+</div>
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 99%; text-align: center">
+    <div></div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赞赏</span>
+    </button>
+    <div id="QR" style="display: none">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/path/to/pay/wechatpay.JPG" alt="吴小龙同學 WeChat Pay">
+          <p>微信赞赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/path/to/pay/aliPay.png" alt="吴小龙同學 Alipay">
+          <p>支付宝赞赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag">#Android</a>
+          
+            <a href="/tags/Theme/" rel="tag">#Theme</a>
+          
+            <a href="/tags/WeiYan/" rel="tag">#WeiYan</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/08/19/PreferenceUtils/" rel="next" title="SharedPreferencesUtil">
+                <i class="fa fa-chevron-left"></i> SharedPreferencesUtil
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/08/28/PioneeringRoad/" rel="prev" title="PioneeringRoad">
+                PioneeringRoad <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2015/08/19/ChangeTheme/" data-title="Android更换主题" data-content="" data-url="http://wuxiaolong.me/2015/08/19/ChangeTheme/">
+  <div class="ds-share-inline">
+    <ul class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+	  <li><a class="ds-qq" href="javascript:void(0);" data-service="qq">QQ好友</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2015/08/19/ChangeTheme/" data-title="Android更换主题" data-url="http://wuxiaolong.me/2015/08/19/ChangeTheme/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="吴小龙同學">
+          <p class="site-author-name" itemprop="name">吴小龙同學</p>
+          <p class="site-description motion-element" itemprop="description">我的微信公众号：吴小龙同学</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">127</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">97</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="http://weixin.sogou.com/weixin?type=1&query=%E5%90%B4%E5%B0%8F%E9%BE%99%E5%90%8C%E5%AD%A6" target="_blank" title="WeChat">
+                  
+                    <i class="fa fa-fw fa-weixin"></i>
+                  
+                  WeChat
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/WuXiaolong" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/2175011601" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="/qq" target="_blank" title="QQ">
+                  
+                    <i class="fa fa-fw fa-qq"></i>
+                  
+                  QQ
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="/atom.xml" target="_blank" title="RSS">
+                  
+                    <i class="fa fa-fw fa-rss"></i>
+                  
+                  RSS
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#效果预览"><span class="nav-number">1.</span> <span class="nav-text">效果预览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实例APK"><span class="nav-number">2.</span> <span class="nav-text">实例APK</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#颜色定义"><span class="nav-number">3.</span> <span class="nav-text">颜色定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#样式定义"><span class="nav-number">4.</span> <span class="nav-text">样式定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题选择对话框"><span class="nav-number">5.</span> <span class="nav-text">主题选择对话框</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#在对话框里加入了GridView"><span class="nav-number">5.1.</span> <span class="nav-text">在对话框里加入了GridView</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对话框圆形颜色"><span class="nav-number">5.2.</span> <span class="nav-text">对话框圆形颜色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ColorsListAdapter"><span class="nav-number">5.3.</span> <span class="nav-text">ColorsListAdapter</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#changeTheme方法"><span class="nav-number">5.4.</span> <span class="nav-text">changeTheme方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PreferenceUtils"><span class="nav-number">5.5.</span> <span class="nav-text">PreferenceUtils</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ThemeUtils"><span class="nav-number">5.6.</span> <span class="nav-text">ThemeUtils</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基类BaseActivity"><span class="nav-number">6.</span> <span class="nav-text">基类BaseActivity</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2013 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">吴小龙同學</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"wuxiaolong"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
