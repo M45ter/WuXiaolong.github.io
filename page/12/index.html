@@ -304,8 +304,8 @@
             
               
                 
-                <a class="post-title-link" href="/2015/04/23/weiyan/" itemprop="url">
-                  微言
+                <a class="post-title-link" href="/2015/04/27/Split/" itemprop="url">
+                  Android字符串分割
                 </a>
               
             
@@ -318,8 +318,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-04-23T00:00:00+08:00" content="2015-04-23">
-              2015-04-23
+            <time itemprop="dateCreated" datetime="2015-04-27T00:00:00+08:00" content="2015-04-27">
+              2015-04-27
             </time>
           </span>
 
@@ -332,8 +332,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/App/" itemprop="url" rel="index">
-                    <span itemprop="name">App</span>
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
                   </a>
                 </span>
 
@@ -348,8 +348,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/04/23/weiyan/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/23/weiyan/" itemprop="commentsCount"></span>
+                <a href="/2015/04/27/Split/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/27/Split/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -373,15 +373,13 @@
 
       
         
-          <blockquote>
-<p>微言算我第一个个人App，当初的初衷，想通过这个App达到练手，并熟悉Android项目的创建到发布上线的整个流程。<br>现在我想达到了预期甚至超过了，至今我还在维护这个项目。<br>至于做成什么样子的应用，一开始根本不知道，更不知道“产品”，主观意识做一款励志的，<br>后来认知到产品概念，想把微言做的更好，而不是纯粹地练手，于是形成了现在这个样子的APP(<a href="http://app.mi.com/detail/25323">效果预览</a>)。<br>其实其中好多功能不是我凭空想出来的，是用户反馈的。<br>PS:万事开头难，没有行动之前，什么都觉得难！其实没想象的那么难，选准方向，勇往直前吧。</p>
-</blockquote>
-<h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanScreenshots.gif" alt=""></p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/04/23/weiyan/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">split(<span class="string">"|"</span>)实现字符串分割</div></pre></td></tr></table></figure>
+<p>下面同样的效果</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">String chartest = <span class="string">"abcdefghijk"</span>;</div><div class="line">		<span class="keyword">char</span>[] chs = chartest.toCharArray();<span class="comment">// 注：这里一定要用char来定义。</span></div><div class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; chs.length; i++) &#123;</div><div class="line">			<span class="comment">// Log.d("wxl", "chs=========" + chs[i]);</span></div><div class="line">		&#125;</div><div class="line">		<span class="comment">// 输出: a b c d e f g h i j k</span></div></pre></td></tr></table></figure>
+<p>String[] strs = str.split(“\|\|”);</p>
+<p>就可以了。|在正则表达式里表示或者的意思，转一下就好了。</p>
+          
         
       
     </div>
@@ -503,6 +501,130 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">LayoutInflater inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);  </div><div class="line">View child = inflater.inflate(R.layout.child, <span class="keyword">null</span>);</div></pre></td></tr></table></figure>
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/04/23/LayoutInflater/" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2015/04/23/weiyan/" itemprop="url">
+                  微言
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-04-23T00:00:00+08:00" content="2015-04-23">
+              2015-04-23
+            </time>
+          </span>
+
+          
+            <span class="post-category">
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/App/" itemprop="url" rel="index">
+                    <span itemprop="name">App</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2015/04/23/weiyan/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/23/weiyan/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote>
+<p>微言算我第一个个人App，当初的初衷，想通过这个App达到练手，并熟悉Android项目的创建到发布上线的整个流程。<br>现在我想达到了预期甚至超过了，至今我还在维护这个项目。<br>至于做成什么样子的应用，一开始根本不知道，更不知道“产品”，主观意识做一款励志的，<br>后来认知到产品概念，想把微言做的更好，而不是纯粹地练手，于是形成了现在这个样子的APP(<a href="http://app.mi.com/detail/25323">效果预览</a>)。<br>其实其中好多功能不是我凭空想出来的，是用户反馈的。<br>PS:万事开头难，没有行动之前，什么都觉得难！其实没想象的那么难，选准方向，勇往直前吧。</p>
+</blockquote>
+<h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanScreenshots.gif" alt=""></p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/04/23/weiyan/" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1147,131 +1269,6 @@
   </article>
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/01/14/wochat/" itemprop="url">
-                  Android基于XMPP即时通讯应用（一）【openfire服务器配置】
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-01-14T00:00:00+08:00" content="2015-01-14">
-              2015-01-14
-            </time>
-          </span>
-
-          
-            <span class="post-category">
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Android/" itemprop="url" rel="index">
-                    <span itemprop="name">Android</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/01/14/wochat/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/01/14/wochat/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>OpenFire 是采用Java开发的基于XMPP（Jabber）协议，开源实时协作（RTC）服务器。</p>
-<p>Smack 是用 Java编 写的XMPP客户端代码库，是 spark 的核心</p>
-<p>开源界总是有许多有趣的东东，这三个合起来就是一个完整的XMPP IM 实现。</p>
-<p>OpenFire ——服务器端<br>Spark——客户端</p>
-<p>Smack——XMPP 传输协议的实现</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/01/14/wochat/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-    
   </section>
 
   
@@ -1315,7 +1312,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">127</span>
+              <span class="site-state-item-count">128</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1323,7 +1320,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-count">18</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -1332,7 +1329,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">97</span>
+                <span class="site-state-item-count">98</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>

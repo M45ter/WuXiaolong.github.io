@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuxiaolong.me/"/>
-  <updated>2016-08-25T11:38:52.900Z</updated>
+  <updated>2016-09-07T14:38:25.067Z</updated>
   <id>http://wuxiaolong.me/</id>
   
   <author>
@@ -14,6 +14,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一套通用Android框架</title>
+    <link href="http://wuxiaolong.me/2016/09/07/MyAndroidLibrary/"/>
+    <id>http://wuxiaolong.me/2016/09/07/MyAndroidLibrary/</id>
+    <published>2016-09-07T13:01:10.000Z</published>
+    <updated>2016-09-07T14:38:25.067Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>现在做Android开发，已经是大好时机，网上已经有很多成熟的框架，我们应充分利用好这些，所谓前人种树后人好乘凉，很多时候压根不需要了解太多原理，只需站在巨人的丁丁上即可，当然你说你能力强，非要重新造轮子，无可厚非。</p>
+</blockquote>
+<h1 id="依赖注入"><a href="#依赖注入" class="headerlink" title="依赖注入"></a>依赖注入</h1><a id="more"></a>
+<p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/butterknife.png?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Bind Android views and callbacks to fields and methods 将Android视图和回调方法绑定到字段和方法上</p>
+<p>###github地址<br><a href="https://github.com/JakeWharton/butterknife" target="_blank" rel="external">https://github.com/JakeWharton/butterknife</a></p>
+<p>###相关博客<br><a href="http://jakewharton.github.io/butterknife/" target="_blank" rel="external">butterknife官网</a></p>
+<h1 id="网络请求"><a href="#网络请求" class="headerlink" title="网络请求"></a>网络请求</h1><h2 id="Retrofit"><a href="#Retrofit" class="headerlink" title="Retrofit"></a>Retrofit</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/retrofit2.png?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><p>Type-safe HTTP client for Android and Java by Square 类型安全的Http客户端</p>
+<p>###github地址<br><a href="https://github.com/square/retrofit" target="_blank" rel="external">https://github.com/square/retrofit</a></p>
+<p>###相关博客<br><a href="http://wuxiaolong.me/2016/06/18/retrofits/">Android Retrofit 2.0 使用-补充篇</a><br><a href="http://wuxiaolong.me/2016/01/15/retrofit/">Android Retrofit 2.0使用</a><br><a href="http://square.github.io/retrofit/" target="_blank" rel="external">Retrofit官网</a></p>
+<h1 id="图片加载"><a href="#图片加载" class="headerlink" title="图片加载"></a>图片加载</h1><h2 id="glide"><a href="#glide" class="headerlink" title="glide"></a>glide</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/glide_logo.png?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h3><p>An image loading and caching library for Android focused on smooth scrolling  一个图片加载和缓存的库</p>
+<p>###github地址<br><a href="https://github.com/bumptech/glide" target="_blank" rel="external">https://github.com/bumptech/glide</a></p>
+<h2 id="picasso"><a href="#picasso" class="headerlink" title="picasso"></a>picasso</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/glide.png?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-3"><a href="#简介-3" class="headerlink" title="简介"></a>简介</h3><p>A powerful image downloading and caching library for Android 一个强大的图片下载与缓存的库</p>
+<p>###github地址<br><a href="https://github.com/square/picasso" target="_blank" rel="external">https://github.com/square/picasso</a></p>
+<p>###相关博客<br><strong>Glide 系列预览</strong><br><a href="http://mrfu.me/2016/02/27/Glide_Getting_Started/" target="_blank" rel="external">开始！</a><br><a href="http://mrfu.me/2016/02/27/Glide_Advanced_Loading/" target="_blank" rel="external">加载进阶</a><br><a href="http://mrfu.me/2016/02/27/Glide_ListAdapter_(ListView,_GridView" target="_blank" rel="external">ListAdapter(ListView, GridView)</a>/)<br><a href="http://mrfu.me/2016/02/27/Glide_Placeholders_&amp;_Fade_Animations/" target="_blank" rel="external">占位符 和 渐现动画</a><br><a href="http://mrfu.me/2016/02/27/Glide_Image_Resizing_&amp;_Scaling/" target="_blank" rel="external">图片重设大小 和 缩放</a><br><a href="http://mrfu.me/2016/02/27/Glide_Displaying_Gifs_&amp;_Videos/" target="_blank" rel="external">显示 Gif 和 Video</a><br><a href="http://mrfu.me/2016/02/27/Glide_Caching_Basics/" target="_blank" rel="external">缓存基础</a><br><a href="http://mrfu.me/2016/02/27/Glide_Request_Priorities/" target="_blank" rel="external">请求优先级</a><br><a href="http://mrfu.me/2016/02/27/Glide_Thumbnails/" target="_blank" rel="external">缩略图</a><br><a href="http://mrfu.me/2016/02/27/Glide_Callbacks_SimpleTarget_and_ViewTarget_for_Custom_View_Classes/" target="_blank" rel="external">回调：SimpleTarget 和 ViewTarget 用于自定义视图类</a><br><a href="http://mrfu.me/2016/02/27/Glide_Loading_Images_into_Notifications_and_AppWidgets/" target="_blank" rel="external">加载图片到通知栏和应用小部件中</a><br><a href="http://mrfu.me/2016/02/28/Glide_Exceptions-_Debugging_and_Error_Handling/" target="_blank" rel="external">异常：调试和错误处理</a><br><a href="http://mrfu.me/2016/02/28/Glide_Custom_Transformations/" target="_blank" rel="external">自定义转换</a><br><a href="http://mrfu.me/2016/02/28/Glide_Custom_Transformations/" target="_blank" rel="external">用 animate() 自定义动画</a><br><a href="http://mrfu.me/2016/02/28/Glide_Integrating_Networking_Stacks/" target="_blank" rel="external">集成网络栈</a><br><a href="http://mrfu.me/2016/02/28/Glide_Customize_Glide_with_Modules/" target="_blank" rel="external">用 Module 自定义 Glide</a><br><a href="http://mrfu.me/2016/02/28/Glide_Module_Example_Accepting_Self-Signed_HTTPS_Certificates/" target="_blank" rel="external">Module 实例：接受自签名证书的 HTTPS</a><br><a href="http://mrfu.me/2016/02/28/Glide_Module_Example_Customize_Caching/" target="_blank" rel="external">Module 实例：自定义缓存</a><br><a href="http://mrfu.me/2016/02/28/Glide_Module_Example_Optimizing/" target="_blank" rel="external">Module 实例：用自定义尺寸优化加载的图片</a><br><a href="http://mrfu.me/2016/02/28/Glide_Dynamically_Use_Model_Loaders/" target="_blank" rel="external">动态使用 Model Loader</a><br><a href="http://mrfu.me/2016/02/28/Glide_How_to_Rotate_Images/" target="_blank" rel="external">如何旋转图像</a><br><a href="http://mrfu.me/2016/02/28/Glide_Series_Roundup/" target="_blank" rel="external">系列综述</a></p>
+<p><strong>Picasso</strong><br><a href="http://wuxiaolong.me/2015/09/14/Picasso/">github之Picasso使用</a></p>
+<h1 id="图片操作"><a href="#图片操作" class="headerlink" title="图片操作"></a>图片操作</h1><h2 id="PhotoView"><a href="#PhotoView" class="headerlink" title="PhotoView"></a>PhotoView</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/PhotoView.png?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-4"><a href="#简介-4" class="headerlink" title="简介"></a>简介</h3><p>Implementation of ImageView for Android that supports zooming, by various touch gestures 图片缩放</p>
+<p>###github地址<br><a href="https://github.com/chrisbanes/PhotoView" target="_blank" rel="external">https://github.com/chrisbanes/PhotoView</a></p>
+<p>###相关博客<br><a href="http://wuxiaolong.me/2015/09/14/PhotoView/">github之PhotoView使用</a></p>
+<h2 id="uCrop"><a href="#uCrop" class="headerlink" title="uCrop"></a>uCrop</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/ucrop0.gif?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-5"><a href="#简介-5" class="headerlink" title="简介"></a>简介</h3><p>Image Cropping Library for Android 图片裁剪</p>
+<p>###github地址<br><a href="https://github.com/Yalantis/uCrop" target="_blank" rel="external">https://github.com/Yalantis/uCrop</a></p>
+<p>###相关博客<br><a href="http://wuxiaolong.me/2016/06/20/uCrop/">uCrop使用及源码浅析</a></p>
+<h2 id="CircleImageView"><a href="#CircleImageView" class="headerlink" title="CircleImageView"></a>CircleImageView</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/CircleImageView.png?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-6"><a href="#简介-6" class="headerlink" title="简介"></a>简介</h3><p>A circular ImageView for Android 圆头像</p>
+<p>###github地址<br><a href="https://github.com/hdodenhof/CircleImageView" target="_blank" rel="external">https://github.com/hdodenhof/CircleImageView</a></p>
+<h1 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h1><h2 id="Realm"><a href="#Realm" class="headerlink" title="Realm"></a>Realm</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/realm.jpg?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-7"><a href="#简介-7" class="headerlink" title="简介"></a>简介</h3><p>Realm is a mobile database: a replacement for SQLite &amp; ORMs</p>
+<p>###github地址<br><a href="https://realm.io/cn/docs/java/latest/#getting-started" target="_blank" rel="external">https://github.com/realm/realm-java</a></p>
+<p>###相关博客<br><a href="http://wuxiaolong.me/2016/06/18/retrofits/">Realm官网</a></p>
+<h1 id="响应式编程"><a href="#响应式编程" class="headerlink" title="响应式编程"></a>响应式编程</h1><h2 id="RxJava"><a href="#RxJava" class="headerlink" title="RxJava"></a>RxJava</h2><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/rxjava.jpg?watermark/2/text/5ZC05bCP6b6Z5ZCM5a24/font/5qW35L2T/fontsize/500/fill/I0VGRUZFRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<h3 id="简介-8"><a href="#简介-8" class="headerlink" title="简介"></a>简介</h3><p>RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM</p>
+<p>###github地址<br><a href="https://github.com/ReactiveX/RxJava" target="_blank" rel="external">https://github.com/ReactiveX/RxJava</a></p>
+<p>###相关博客<br><a href="http://wuxiaolong.me/2016/01/18/rxjava/">RxJava</a><br><a href="http://rxjava.yuxingxin.com/" target="_blank" rel="external">RxJava Essentials CN</a><br><a href="https://mcxiaoke.gitbooks.io/rxdocs/content/" target="_blank" rel="external">ReactiveX文档中文翻译</a><br><a href="http://gank.io/post/560e15be2dca930e00da1083" target="_blank" rel="external">给 Android 开发者的 RxJava 详解</a></p>
+<h1 id="事件总线"><a href="#事件总线" class="headerlink" title="事件总线"></a>事件总线</h1><h2 id="RxBus"><a href="#RxBus" class="headerlink" title="RxBus"></a>RxBus</h2><h3 id="简介-9"><a href="#简介-9" class="headerlink" title="简介"></a>简介</h3><p>基于RxJava写的事件总线</p>
+<p>###相关博客<br><a href="http://wuxiaolong.me/2016/04/07/rxbus/">RxBus</a></p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>知道了解以上框架，开发又何忧！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;现在做Android开发，已经是大好时机，网上已经有很多成熟的框架，我们应充分利用好这些，所谓前人种树后人好乘凉，很多时候压根不需要了解太多原理，只需站在巨人的丁丁上即可，当然你说你能力强，非要重新造轮子，无可厚非。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;依赖注入&quot;&gt;&lt;a href=&quot;#依赖注入&quot; class=&quot;headerlink&quot; title=&quot;依赖注入&quot;&gt;&lt;/a&gt;依赖注入&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="Library" scheme="http://wuxiaolong.me/categories/Library/"/>
+    
+    
+      <category term="Library" scheme="http://wuxiaolong.me/tags/Library/"/>
+    
+  </entry>
   
   <entry>
     <title>Android 画布Canvas</title>
@@ -1050,61 +1116,6 @@
       <category term="Android" scheme="http://wuxiaolong.me/tags/Android/"/>
     
       <category term="Genymotion" scheme="http://wuxiaolong.me/tags/Genymotion/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的编码嗜好</title>
-    <link href="http://wuxiaolong.me/2016/03/13/MyCodeHobby/"/>
-    <id>http://wuxiaolong.me/2016/03/13/MyCodeHobby/</id>
-    <published>2016-03-13T02:06:00.000Z</published>
-    <updated>2016-08-25T11:38:52.920Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>如果有个好的工具或习惯，会让你编码效率事半功倍。我的个人编码嗜好，内容包括Chrome插件、Android studio插件和快捷键使用、手机录屏软件等。</p>
-</blockquote>
-<h1 id="Chrome插件"><a href="#Chrome插件" class="headerlink" title="Chrome插件"></a>Chrome插件</h1><h2 id="AdBlock-广告终结者"><a href="#AdBlock-广告终结者" class="headerlink" title="AdBlock/广告终结者"></a>AdBlock/广告终结者</h2><p>作用：当你浏览网页时，被满屏的广告所扰，这个插件让你的网页更干净更清爽。<br><a id="more"></a><br>下载地址：<br><a href="https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">AdBlock</a><br><a href="https://chrome.google.com/webstore/detail/%E5%B9%BF%E5%91%8A%E7%BB%88%E7%BB%93%E8%80%85/fpdnjdlbdmifoocedhkighhlbchbiikl?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">广告终结者</a></p>
-<h2 id="JSONView"><a href="#JSONView" class="headerlink" title="JSONView"></a>JSONView</h2><p>作用：调试接口，我一般会在浏览器打开看看数据，但是打开却是一堆密密麻麻的，那这个插件，你必不可少，支持get请求方式。<br>下载地址：<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">JSONView</a><br>效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby0.png" alt=""></p>
-<h2 id="Postman"><a href="#Postman" class="headerlink" title="Postman"></a>Postman</h2><p>作用：你如果调试接口，这个插件，你必不可少，可以支持get、post、put等调试。<br>下载地址：<a href="https://chrome.google.com/webstore/detail/fhbjgbiflinjbdggehcddcbncdddomop?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Postman</a><br>效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby1.png" alt=""></p>
-<h2 id="Vysor"><a href="#Vysor" class="headerlink" title="Vysor"></a>Vysor</h2><p>作用：PC上直接同步你的手机，配合LICEcap（下文介绍）使用，效果更佳。<br>下载地址：<a href="https://chrome.google.com/webstore/detail/gidgenkbbabolejbgbpnhbimgjbffefm?utm_source=chrome-app-launcher-info-dialog" target="_blank" rel="external">Vysor</a><br>效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby2.png" alt=""></p>
-<h1 id="Android-studio插件"><a href="#Android-studio插件" class="headerlink" title="Android studio插件"></a>Android studio插件</h1><h2 id="Genymotion"><a href="#Genymotion" class="headerlink" title="Genymotion"></a>Genymotion</h2><p>作用：Android模拟器，运行速度堪比手机，Android自带的模拟器卡成翔。<br>安装步骤：Android studio-Settings-Plugins-搜Genymotion-Install Plugin<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby3.png" alt=""><br>效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby4.png" alt=""></p>
-<h2 id="ButterKnife"><a href="#ButterKnife" class="headerlink" title="ButterKnife"></a>ButterKnife</h2><p>作用：ButterKnife注解想必都用过，安装ButterKnife插件，快速生成findViewById。<br>安装步骤：Android studio-Settings-Plugins-搜ButterKnife-Install Plugin<br>效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby5.gif" alt=""></p>
-<h2 id="Gsonformat"><a href="#Gsonformat" class="headerlink" title="Gsonformat"></a>Gsonformat</h2><p>作用：一般接口返回数据后要建立自己的bean，Gsonformat帮助你快速生成，不用一条一条去写。<br>安装步骤：Android studio-Settings-Plugins-搜Gsonformat-Install Plugin<br>效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby6.gif" alt=""></p>
-<h1 id="Android-studio快捷键使用"><a href="#Android-studio快捷键使用" class="headerlink" title="Android studio快捷键使用"></a>Android studio快捷键使用</h1><p>Android studio出beta版，我就开始尝鲜，但快捷键还一时难以适应，于是就把Android studio的快捷键设置成eclipse（<a href="http://wuxiaolong.me/2014/10/21/Android-Studio-shortcut-keys-arranged-like-Eclipse/">Android Studio快捷键设置成跟Eclipse一样</a>）。</p>
-<ol>
-<li>注释<br>Comment with Line Comment =&gt;Ctrl+斜杠，改成Ctrl+Shift+c</li>
-<li>Alt+insert<br>快捷设置set和get方法或实现某个方法</li>
-<li>Ctrl+alt+方向键下<br>快速复制一行</li>
-<li>alt+方向键下<br>内容下移一行</li>
-<li>ctrl+shift+t<br>找某个类</li>
-<li>alt+选择代码块进行复制</li>
-<li>ctrl+f<br>可以选中代码块替换</li>
-<li>Ctrl+h<br>全文搜索</li>
-<li>Shift+Alt+r<br>更改变量名字</li>
-<li>Alt+Shift+M<br>选择代码块，生成一个方法</li>
-<li>Editor标签-other选择勾选“show quick doc on mouse move”选项，像eclipse通过鼠标显示悬浮提示</li>
-<li>Editor标签下-Code Completion下-Case sensitive completion选择None，当输入代码，不区别大小写也能弹出代码提示</li>
-<li>Ctrl+G/Ctrl+鼠标<br>查看某个方法或变量哪里使用到了，Ctrl+鼠标功能类似</li>
-</ol>
-<h1 id="手机录屏软件"><a href="#手机录屏软件" class="headerlink" title="手机录屏软件"></a>手机录屏软件</h1><h2 id="LICEcap"><a href="#LICEcap" class="headerlink" title="LICEcap"></a>LICEcap</h2><p>作用：PC端动态截屏，小巧功能强大。<br>下载地址：<a href="http://www.cockos.com/licecap/" target="_blank" rel="external">LICEcap</a><br>效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/MyCodeHobby7.png" alt=""></p>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="Notepad"><a href="#Notepad" class="headerlink" title="Notepad++"></a>Notepad++</h2><p>文本编辑器，我很喜欢。</p>
-<h2 id="SourceTree"><a href="#SourceTree" class="headerlink" title="SourceTree"></a>SourceTree</h2><p>版本控制器，如果不喜欢命令行，这个还是不错的选择。</p>
-<h1 id="微信公众号"><a href="#微信公众号" class="headerlink" title="微信公众号"></a>微信公众号</h1><p>我的微信公众号：吴小龙同学，不止于技术分享，每天进步一点点，欢迎微信扫一扫关注。<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/qrcode_wuxiaolong.jpg" alt=""></p>
-<h1 id="关于作者"><a href="#关于作者" class="headerlink" title="关于作者"></a>关于作者</h1><p><a href="http://wuxiaolong.me/about/">点击查看</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;如果有个好的工具或习惯，会让你编码效率事半功倍。我的个人编码嗜好，内容包括Chrome插件、Android studio插件和快捷键使用、手机录屏软件等。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;Chrome插件&quot;&gt;&lt;a href=&quot;#Chrome插件&quot; class=&quot;headerlink&quot; title=&quot;Chrome插件&quot;&gt;&lt;/a&gt;Chrome插件&lt;/h1&gt;&lt;h2 id=&quot;AdBlock-广告终结者&quot;&gt;&lt;a href=&quot;#AdBlock-广告终结者&quot; class=&quot;headerlink&quot; title=&quot;AdBlock/广告终结者&quot;&gt;&lt;/a&gt;AdBlock/广告终结者&lt;/h2&gt;&lt;p&gt;作用：当你浏览网页时，被满屏的广告所扰，这个插件让你的网页更干净更清爽。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Life" scheme="http://wuxiaolong.me/categories/Life/"/>
-    
-    
-      <category term="code" scheme="http://wuxiaolong.me/tags/code/"/>
     
   </entry>
   
