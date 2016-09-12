@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuxiaolong.me/"/>
-  <updated>2016-09-08T12:21:19.886Z</updated>
+  <updated>2016-09-12T14:58:09.917Z</updated>
   <id>http://wuxiaolong.me/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微言-源码售卖</title>
+    <link href="http://wuxiaolong.me/2016/09/12/weiyanChild/"/>
+    <id>http://wuxiaolong.me/2016/09/12/weiyanChild/</id>
+    <published>2016-09-12T14:20:43.000Z</published>
+    <updated>2016-09-12T14:58:09.917Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>资本寒冬，我已经两个月没发工资了，现在买个尿不湿都得咬牙考虑下，为了现在这个宝宝，只能卖掉微言这个“孩子”了。</p>
+<p>微言算我第一个个人App，初衷是想通过这个App达到练手，并熟悉Android项目的创建到发布上线的整个流程，明显这个目标达到了。实在抱歉，很多人问我微言源码在哪里能看，因为我一直还在维护这个项目，因此未开源出来，我的github另外有个开源项目WeWin。</p>
+<p>微言从开始无言知晓到精品系列，我花了很多精力和时间，他就像我的孩子一样，伴他成长起来！</p>
+<a id="more"></a>
+<h1 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h1><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyan1.gif" alt=""><br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyan2.gif" alt=""><br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyan3.gif" alt=""></p>
+<h1 id="好评如潮"><a href="#好评如潮" class="headerlink" title="好评如潮"></a>好评如潮</h1><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/comment.jpg" alt=""><br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/rank3.png" alt=""><br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/rank2.jpg" alt=""><br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/rank1.png" alt=""></p>
+<h1 id="二维码下载"><a href="#二维码下载" class="headerlink" title="二维码下载"></a>二维码下载</h1><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/weiyanAppDownload.png" alt=""></p>
+<h1 id="我的收获"><a href="#我的收获" class="headerlink" title="我的收获"></a>我的收获</h1><p>1、广告费<br>总共赚了一两万广告费，13年年底开始搞，从一个月几十块，到最好一个月四千多。<br>2、Photoshop<br>没有美工，只能自己学着做一些简单的图片<br>3、产品意识<br>最重要一点，至于做成什么样子的应用，一开始根本不知道，更不知道“产品”，主观意识做一款励志的，后来认知到产品概念，想把微言做的更好，而不是纯粹地练手，其实其中好多功能不是我凭空想出来的，是用户反馈的。</p>
+<h1 id="源码售卖"><a href="#源码售卖" class="headerlink" title="源码售卖"></a>源码售卖</h1><p>我还从来感受觉得生活多么艰辛，即使当初刚刚毕业工资才1.5K，我也觉得生活挺好，但如今不一样，不是我一个人吃好就好就行了。口袋里没有一点票子，这点让我很焦虑。如果您有兴趣，欢迎私聊我，我的QQ1413129987，另外一个作品【今日情感】也售卖，效果预览：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/todayEmotionAppScreenshots.gif" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;资本寒冬，我已经两个月没发工资了，现在买个尿不湿都得咬牙考虑下，为了现在这个宝宝，只能卖掉微言这个“孩子”了。&lt;/p&gt;
+&lt;p&gt;微言算我第一个个人App，初衷是想通过这个App达到练手，并熟悉Android项目的创建到发布上线的整个流程，明显这个目标达到了。实在抱歉，很多人问我微言源码在哪里能看，因为我一直还在维护这个项目，因此未开源出来，我的github另外有个开源项目WeWin。&lt;/p&gt;
+&lt;p&gt;微言从开始无言知晓到精品系列，我花了很多精力和时间，他就像我的孩子一样，伴他成长起来！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="App" scheme="http://wuxiaolong.me/categories/App/"/>
+    
+    
+      <category term="weiyan" scheme="http://wuxiaolong.me/tags/weiyan/"/>
+    
+  </entry>
   
   <entry>
     <title>一套完整的Android通用框架</title>
@@ -1073,57 +1105,6 @@
       <category term="lambda" scheme="http://wuxiaolong.me/tags/lambda/"/>
     
       <category term="retrolambda" scheme="http://wuxiaolong.me/tags/retrolambda/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android Studio和Genymotion安装常见错误</title>
-    <link href="http://wuxiaolong.me/2016/03/17/GenymotionErrors/"/>
-    <id>http://wuxiaolong.me/2016/03/17/GenymotionErrors/</id>
-    <published>2016-03-17T11:47:04.000Z</published>
-    <updated>2016-08-25T11:38:52.918Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>整装出发，新的环境，新的开始，加油，骚年。新公司，首先需要安装Android的开发环境，由于被墙，Android Studio首次启动就被卡，Genymotion也遇到了些问题。</p>
-</blockquote>
-<h1 id="Android-Studio初次启动卡在download-Components"><a href="#Android-Studio初次启动卡在download-Components" class="headerlink" title="Android Studio初次启动卡在download Components"></a>Android Studio初次启动卡在download Components</h1><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/GenymotionErrors3.jpg" alt=""><br><a id="more"></a><br>解决方案:</p>
-<p>详见：<a href="http://blog.csdn.net/u010302764/article/details/42889731" target="_blank" rel="external">http://blog.csdn.net/u010302764/article/details/42889731</a></p>
-<h1 id="Genymotion下载虚拟镜像Connection-timeout"><a href="#Genymotion下载虚拟镜像Connection-timeout" class="headerlink" title="Genymotion下载虚拟镜像Connection timeout"></a>Genymotion下载虚拟镜像Connection timeout</h1><p>Add new device出现的问题：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Failed to deploy virtual device.</div><div class="line">Unable to create virtual device.Connection timeout occurred.</div></pre></td></tr></table></figure></p>
-<p>解决方案：</p>
-<ol>
-<li><p>当选择Google Nexus 5 - 6.0.0 - API 23 - 1080x1920下载device失败后，到C:\Users\用户主目录\AppData\Local\Genymobile\Genymotion\ova下看到genymotion_vbox86p_6.0_160114_090449.ova，大小却是0KB，在C:\Users\用户主目录\AppData\Local\Genymobile\genymotion.log，打开该文件，找到类似“<a href="http://files2.genymotion.com/dists/6.0.0/ova/genymotion_vbox86p_6.0_160114_090449.ova”路径，即您想要下载的镜像文件URL；" target="_blank" rel="external">http://files2.genymotion.com/dists/6.0.0/ova/genymotion_vbox86p_6.0_160114_090449.ova”路径，即您想要下载的镜像文件URL；</a></p>
-</li>
-<li><p>用迅雷去下载，下载完成后放到C:\Users\用户主目录\AppData\Local\Genymobile\Genymotion\ova；</p>
-</li>
-<li><p>重新点击Google Nexus 5 - 6.0.0 - API 23 - 1080x1920去下载，验证安装后即会显示在设备列表中。</p>
-</li>
-</ol>
-<h1 id="virtualbox-cannot-start-the-virtual-device"><a href="#virtualbox-cannot-start-the-virtual-device" class="headerlink" title="virtualbox cannot start the virtual device"></a>virtualbox cannot start the virtual device</h1><p><img src="http://7q5c2h.com1.z0.glb.clouddn.com/GenymotionErrors1.jpg" alt=""></p>
-<p>然后去vbox运行虚拟机，报如下错误：<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/GenymotionErrors2.jpg" alt=""><br>点击复制看具体错误信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">不能为虚拟电脑 Google Nexus 5 - 6.0.0 - API 23 - 1080x1920 打开一个新任务.</div><div class="line"></div><div class="line">Unable to load R3 module D:\Program Files\Oracle\VirtualBox/VBoxDD.DLL (VBoxDD): GetLastError=1790 (VERR_UNRESOLVED_ERROR).</div><div class="line"></div><div class="line">返回 代码:E_FAIL (0x80004005)</div><div class="line">组件:ConsoleWrap</div><div class="line">界面:IConsole &#123;872da645-4a9b-1727-bee2-5585105b9eed&#125;</div></pre></td></tr></table></figure></p>
-<p>原因:<br>宿主机win7用的ghost系统，会破解uxtheme.dll文件，导致virtualbox启动失败</p>
-<p>解决方案:<br>去网上下载Windows7 64bit uxtheme.dll，使用原版的uxtheme.dll替换c:\windows\system32\uxtheme.dll即可。</p>
-<h1 id="x86-emulation-currently-requires-hardware-acceleration"><a href="#x86-emulation-currently-requires-hardware-acceleration" class="headerlink" title="x86 emulation currently requires hardware acceleration"></a>x86 emulation currently requires hardware acceleration</h1><p>emulator: ERROR: x86 emulation currently requires hardware acceleration!<br>Please ensure Intel HAXM is properly installed and usable.<br>CPU acceleration status: HAX kernel module is not installed!<br>解决方案<br>详见我的博客：<a href="http://wuxiaolong.me/2015/12/03/emulatorError/">Android之emulator ERROR x86 emulation currently requires hardware acceleration</a></p>
-<h1 id="其他常用的软件"><a href="#其他常用的软件" class="headerlink" title="其他常用的软件"></a>其他常用的软件</h1><p>安装自己平时常用的软件，将公司电脑环境变成自己的风格，详见我的博客：<a href="http://wuxiaolong.me/2016/03/13/MyCodeHobby/">我的编码嗜好</a></p>
-<h1 id="微信公众号"><a href="#微信公众号" class="headerlink" title="微信公众号"></a>微信公众号</h1><p>我的微信公众号：吴小龙同学，不止于技术分享，每天进步一点点，欢迎微信扫一扫关注。<br><img src="http://7q5c2h.com1.z0.glb.clouddn.com/qrcode_wuxiaolong.jpg" alt=""></p>
-<h1 id="关于作者"><a href="#关于作者" class="headerlink" title="关于作者"></a>关于作者</h1><p><a href="http://wuxiaolong.me/about/">点击查看</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;整装出发，新的环境，新的开始，加油，骚年。新公司，首先需要安装Android的开发环境，由于被墙，Android Studio首次启动就被卡，Genymotion也遇到了些问题。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;Android-Studio初次启动卡在download-Components&quot;&gt;&lt;a href=&quot;#Android-Studio初次启动卡在download-Components&quot; class=&quot;headerlink&quot; title=&quot;Android Studio初次启动卡在download Components&quot;&gt;&lt;/a&gt;Android Studio初次启动卡在download Components&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://7q5c2h.com1.z0.glb.clouddn.com/GenymotionErrors3.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
-    
-    
-      <category term="Android Studio" scheme="http://wuxiaolong.me/tags/Android-Studio/"/>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/tags/Android/"/>
-    
-      <category term="Genymotion" scheme="http://wuxiaolong.me/tags/Genymotion/"/>
     
   </entry>
   
